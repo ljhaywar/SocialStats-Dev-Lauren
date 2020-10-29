@@ -8,7 +8,7 @@ beforeEach(() => {
             execute: jest.fn((functionName, anyParam) => { return true; })
         }
     }
-});
+}); 
 
 
 test('Simple', () => {
